@@ -1,5 +1,5 @@
 name: Check homework
-on: [push]
+on: [commit]
 jobs:
   validate:
     if: ${{ github.repository_owner != 'ktsstudio' }}
